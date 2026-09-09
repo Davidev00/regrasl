@@ -3,92 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATH FC - Regras do Jogo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MATH FC - Início</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <div class="bg-fx" aria-hidden="true">
+        <span class="beam beam1"></span><span class="beam beam2"></span>
+        <div class="grid-fx"></div>
+        <span class="particle p1"></span><span class="particle p2"></span><span class="particle p3"></span>
+        <span class="particle p4"></span><span class="particle p5"></span><span class="particle p6"></span>
+        <span class="particle p7"></span><span class="particle p8"></span><span class="particle p9"></span>
+        <span class="particle p10"></span><span class="particle p11"></span><span class="particle p12"></span>
+    </div>
+
     <header>
-        <img src="logo da Marquês (1).png" alt="Logo MATH FC" class="logo">
+        <img src="logo da Marquês (1).png" alt="Logo Marquês" class="logo">
         <img src="MATCH FC.png" alt="Escudo MATH FC" class="logo-mathfc">
         <h1>MATH FC</h1>
         <p>A mistura perfeita entre matemática e futebol!</p>
         <nav>
-            <a href="../inicío/inicio.html">INÍCIO</a>
-            <a href="../regras/regras.html" class="active">REGRAS DO JOGO</a>
-            <a href="../sobre nós/index.html">SOBRE NÓS</a>
-            <a href="#">CONTATO</a>
+            <a href="index.html" class="active">INÍCIO</a>
+            <a href="../regrasl/index.html">REGRAS DO JOGO</a>
+            <a href="#">SOBRE NÓS</a>
+            <a href="#">JOGAR</a>
         </nav>
     </header>
 
-    <main class="cards-container">
-        <section class="card card-1">
-            <h3>⚽ 1. O Desafio</h3>
-            <p>Entre em campo! Acerte as contas de matemática rapidamente para chutar a bola direto para o gol e marcar pontos.</p>
+    <main class="container-principal">
+        <section class="hero">
+            <h2>Bem-vindo ao Campo do Conhecimento!</h2>
+            <p>Mostre que você entende tanto de equações quanto de golaços. Prepare sua mente e venha jogar com a gente!</p>
+            <a href="#" class="btn-jogar">JOGAR AGORA</a>
         </section>
-
-        <section class="card card-2">
-            <h3>👥 2. Modos de Jogo</h3>
-            <p>Jogue solo no modo <strong>1 Jogador</strong> para quebrar recordes ou desafie um amigo no modo <strong>2 Jogadores</strong>!</p>
-        </section>
-
-        <section class="card card-3">
-            <h3>➕ 3. Operações</h3>
-            <p>Escolha o seu treino: <strong>Soma/Subtração</strong> para esquentar, <strong>Multiplicação</strong> para dominar ou <strong>Misto</strong> para craques!</p>
-        </section>
-
-        <section class="card card-4">
-            <h3>🚦 4. Nível de Dificuldade</h3>
-            <p>Defina o desafio do jogo entre <strong>Fácil, Normal, Difícil ou Expert</strong>. Quanto maior a dificuldade, mais desafiadoras as contas!</p>
-        </section>
-
-        <section class="card card-5">
-            <h3>⏱️ 5. Tempo do Partida</h3>
-            <p>Ajuste o slider de <strong>Rodadas</strong> na tela inicial para definir a duração da partida antes de dar o pontapé inicial!</p>
-        </section>
-
-        <section class="card card-6">
-            <h3>⌨️ 6. Atalhos Rápidos</h3>
-            <p>Dica de craque! Use as teclas numéricas <strong>1, 2 e 3</strong> do teclado para responder super rápido e não perder tempo!</p>
-        </section>
-
-        <section class="card card-7">
-            <h3>🔥 7. Sistema de Combos</h3>
-            <p>Acerte várias respostas seguidas sem errar para acumular <strong>Combo Máximo</strong> e disparar sua pontuação nas alturas!</p>
-        </section>
-
-        <section class="card card-8">
-            <h3>🎯 8. Chute Certeiro</h3>
-            <p>Cada cálculo correto é um gol marcado! Responda o mais rápido possível para garantir a vitória da sua equipe.</p>
-        </section>
-
-        <section class="card card-9">
-            <h3>❌ 9. Passe Errado</h3>
-            <p>Errou a conta? A defesa adversária intercepta a bola, você perde o combo atual e perde a chance de pontuar na rodada.</p>
-        </section>
-
-        <section class="card card-10">
-            <h3>🏆 10. Recorde Pessoal</h3>
-            <p>Acompanhe seu progresso no topo da tela! Supere seu recorde a cada partida e mostre quem é o verdadeiro camisa 10.</p>
-        </section>
-
-        <section class="card card-11">
-            <h3>🤜🤛 11. Duelo x2</h3>
-            <p>No modo 2 Jogadores, quem responder certo e mais rápido garante o gol da rodada. Agilidade mental é a chave!</p>
-        </section>
-
-        <section class="card card-12">
-            <h3>⚙️ 12. Personalização</h3>
-            <p>Acesse o menu de <strong>Configurações</strong> na tela inicial para ajustar efeitos sonoros, áudio e preferências de partida.</p>
-        </section>
-
-        <section class="card card-13">
-            <h3>🏅 13. Apito Final</h3>
-            <p>Ao término de todas as rodadas, confira o placar final, veja suas estatísticas de acerto e comemore o título!</p>
-        </section>
-
-        <section class="card card-14">
-            <h3>⚡ 14. Fair Play</h3>
-            <p>Sem trapaças! Mantenha o foco, treine o raciocínio rápido e divirta-se evoluindo em matemática enquanto joga!</p>
+        <section class="cards-info">
+            <div class="card card-cyan"><div class="card-badge"><span>01</span></div><h3 class="letters">Lógica &amp; Tática</h3><p>Resolva problemas matemáticos para definir jogadas e garantir a vitória do seu time.</p></div>
+            <div class="card card-magenta"><div class="card-badge"><span>02</span></div><h3 class="letters">Emoção em Campo</h3><p>Cada cálculo correto representa um passo a mais rumo ao topo do campeonato.</p></div>
+            <div class="card card-gold"><div class="card-badge"><span>03</span></div><h3 class="letters">Desafios</h3><p>Enfrente níveis variados de dificuldade e teste todo o seu raciocínio lógico.</p></div>
         </section>
     </main>
 
@@ -97,52 +47,15 @@
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var container = document.querySelector('.cards-container');
-            if (!container) return;
-            var cards = container.querySelectorAll('.card');
-
-            function closeActive() {
-                var active = container.querySelector('.card.card-active');
-                if (active) {
-                    active.classList.remove('card-active');
-                    active.setAttribute('aria-pressed', 'false');
-                }
-                container.classList.remove('has-active');
-            }
-
-            function toggleCard(card) {
-                var wasActive = card.classList.contains('card-active');
-                closeActive();
-                if (!wasActive) {
-                    card.classList.add('card-active');
-                    card.setAttribute('aria-pressed', 'true');
-                    container.classList.add('has-active');
-                }
-            }
-
-            cards.forEach(function (card) {
-                card.setAttribute('tabindex', '0');
-                card.setAttribute('role', 'button');
-                card.setAttribute('aria-pressed', 'false');
-
-                card.addEventListener('click', function () {
-                    toggleCard(card);
-                });
-                card.addEventListener('keydown', function (e) {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        toggleCard(card);
-                    }
-                });
-            });
-
-            document.addEventListener('click', function (e) {
-                if (!container.contains(e.target)) closeActive();
-            });
-
-            document.addEventListener('keydown', function (e) {
-                if (e.key === 'Escape') closeActive();
+        document.querySelectorAll('.letters').forEach(function (el) {
+            const text = el.textContent;
+            el.textContent = '';
+            [...text].forEach(function (ch, i) {
+                const span = document.createElement('span');
+                span.className = 'letter';
+                span.textContent = ch === ' ' ? '\u00A0' : ch;
+                span.style.animationDelay = (i * 0.06) + 's';
+                el.appendChild(span);
             });
         });
     </script>
